@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class FinbatchApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(FinbatchApplication.class, args);
-	}
+    public static void main(String[] args) throws Exception {
+        SpringApplication.run(FinbatchApplication.class, args);
+    }
 }
